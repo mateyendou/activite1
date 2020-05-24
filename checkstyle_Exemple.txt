@@ -1,0 +1,21 @@
+mateyendou@ubuntu:~/eclipse-workspace/c306/2020/dev$ checkstyle -c /usr/share/checkstyle/sun_checks.xml Exemple.java 
+Starting audit...
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:0: Missing package-info.java file. [JavadocPackage]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:5:2: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:6:2: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:7:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:7:16: Parameter t should be final. [FinalParameters]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:7:23: 't' hides a field. [HiddenField]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:24: Parameter v should be final. [FinalParameters]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:28: 'v' hides a field. [HiddenField]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:30: '{' at column 30 should have line break after. [LeftCurly]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:30: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:31: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:41: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:16:41: '}' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:21: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:21:5: '(' is followed by whitespace. [ParenPad]
+Audit done.
+Checkstyle ends with 17 errors.

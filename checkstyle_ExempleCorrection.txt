@@ -1,0 +1,5 @@
+mateyendou@ubuntu:~/eclipse-workspace/c306/2020/dev$ checkstyle -c /usr/share/checkstyle/sun_checks.xml Exemple.java 
+Starting audit...
+[ERROR] /home/mateyendou/eclipse-workspace/c306/2020/dev/Exemple.java:0: Missing package-info.java file. [JavadocPackage]
+Audit done.
+Checkstyle ends with 1 errors.
